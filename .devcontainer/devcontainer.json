@@ -1,17 +1,13 @@
 {
-    "name": "Flutter Dev",
-    "image": "mcr.microsoft.com/devcontainers/flutter",
-    "features": {
-      "ghcr.io/devcontainers/features/flutter:1": {}
-    },
-    "postCreateCommand": "flutter doctor",
-    "customizations": {
-      "vscode": {
-        "extensions": [
-          "Dart-Code.flutter",
-          "Dart-Code.dart-code"
-        ]
-      }
+  "name": "Flutter Dev",
+  "image": "ghcr.io/cirruslabs/flutter:latest",
+  "postCreateCommand": "flutter doctor",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.flutter",
+        "Dart-Code.dart-code"
+      ]
     }
   }
-  
+}
