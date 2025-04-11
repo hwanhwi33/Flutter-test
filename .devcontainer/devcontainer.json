@@ -1,7 +1,7 @@
 {
-  "name": "Flutter Dev",
-  "image": "ghcr.io/cirruslabs/flutter:latest",
-  "postCreateCommand": "flutter doctor",
+  "name": "Flutter Web Dev",
+  "image": "ghcr.io/cirruslabs/docker-images/flutter:main",
+  "postCreateCommand": "flutter config --enable-web && flutter doctor",
   "customizations": {
     "vscode": {
       "extensions": [
