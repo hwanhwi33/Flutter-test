@@ -1,6 +1,6 @@
 {
   "name": "Flutter Web Dev",
-  "image": "ghcr.io/cirruslabs/docker-images/flutter:main",
+  "image": "ghcr.io/cirruslabs/flutter:latest",
   "postCreateCommand": "flutter config --enable-web && flutter doctor",
   "customizations": {
     "vscode": {
